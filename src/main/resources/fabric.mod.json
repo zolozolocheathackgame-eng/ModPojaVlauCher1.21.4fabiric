@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "pojav_lite_suite",
+  "version": "${version}",
+  "name": "Pojav Lite Suite",
+  "description": "Space GUI, soft aim, player/base ESP with depth anchor line, and 3-tier FPS optimization.",
+  "authors": ["LiteSuite"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.pojav.litesuite.LiteSuiteMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
